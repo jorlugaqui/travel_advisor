@@ -1,5 +1,6 @@
 from . import client
 
+
 def test_create_item():
     response = client.post(
         "/travels/",
